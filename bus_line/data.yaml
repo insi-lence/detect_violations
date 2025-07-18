@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bus_line']
+
+roboflow:
+  workspace: doroga
+  project: bus_line
+  version: 17
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/doroga/bus_line/dataset/17
